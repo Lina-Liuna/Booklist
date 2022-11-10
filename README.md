@@ -5,6 +5,7 @@ The Subtle Art of Not Giving a F book will not teach you how to gain or achieve,
 It will teach you to take inventory of your life and scrub out all but the most important items.
 
 favorite library books No. 2: 12 RULES FOR LIFE:
+
 RULE 1: Stand up straight with your shoulders back;
 
 RULE 2: Treat yourself like someone you are responsible for helping;
