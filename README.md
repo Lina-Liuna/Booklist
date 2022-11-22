@@ -1,5 +1,5 @@
 # Booklist
-favorite library books No. 1: The Subtle Art of Not Giving a F book
+## favorite library books No. 1: The Subtle Art of Not Giving a F book
 
 The Subtle Art of Not Giving a F will help you think a little bit more clearly about what you’re choosing to find important in life, and what you’re choosing to find unimportant.
 
@@ -7,7 +7,7 @@ The Subtle Art of Not Giving a F book will not teach you how to gain or achieve,
 
 It will teach you to take inventory of your life and scrub out all but the most important items.
 
-favorite library books No. 2: 12 RULES FOR LIFE:
+## favorite library books No. 2: 12 RULES FOR LIFE:
 
 RULE 1: Stand up straight with your shoulders back;
 
