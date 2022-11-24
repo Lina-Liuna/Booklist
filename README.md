@@ -9,7 +9,7 @@ It will teach you to take inventory of your life and scrub out all but the most 
 
 
 ## favorite library books No. 2: 12 RULES FOR LIFE:
-##### Please find the answers of the following questions in 12 RULES FOR LIFE.pdf
+## Please find the answers of the following questions in 12 RULES FOR LIFE.pdf
 
 ### FOREWORD - Find Answers in 12 RULES FOR LIFE.pdf
 #### 1. About the Author Peterson, why Peterson is popular?
@@ -18,6 +18,7 @@ It will teach you to take inventory of your life and scrub out all but the most 
 #### 4. How to live properly?
 
 ### RULE 1: Stand up straight with your shoulders back;
+### Please find the answers of the following questions in 12 RULES FOR LIFE.pdf
 ##### If you posture is poor, if you slump, shoulders forward and rounded and ineffectual - then you will feel small, defeated and ineffectual.The reactions of others will amplify that. If you present yourself as defeated, then people will react to you as if you are losing.If you start to straighten up, then people will look at and treat you differently.
 #### 1. What is Matthew principle?
 #### 2. What yin and yang symbols look like?
