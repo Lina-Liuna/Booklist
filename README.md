@@ -1,11 +1,44 @@
 # Booklist
-## favorite library books No. 1: The Subtle Art of Not Giving a F book
-
 The Subtle Art of Not Giving a F will help you think a little bit more clearly about what you’re choosing to find important in life, and what you’re choosing to find unimportant.
 
 The Subtle Art of Not Giving a F book will not teach you how to gain or achieve, but rather how to lose and let go.
 
 It will teach you to take inventory of your life and scrub out all but the most important items.
+## favorite library books No. 1: The Subtle Art of Not Giving a F book
+### FOREWORD - find the answers in The Subtle Art of Not Giving a F.pdf
+
+### Description
+#### 1. why this book?
+
+### Don't Try
+#### 1. Self-improvement and success not the same thing
+#### 2. You are not that 
+#### 3. The key to stop The feedback loop from hell?
+#### 4. Do you realize the following crap?
+#### 5. What is the backwards law?
+#### 6. Why it called “backwards” law?
+#### 7. What’s it mean not give a F?
+#### 8. What does not giving a F mean?
+#### 9. What the point of this book?
+### Happiness is a problem
+#### 1. What’s prince Buddha told us?
+#### 2. What's happiness? when true happiness occurs?
+#### 3. Why many people doesn’t feel solving problems that simple?
+#### 4. Why people deny and blame others for their problems? 
+#### 5. What kind of “Highs” people do to make them feel better? 
+#### 6. How to control our emotions?
+#### 7. What do you want out of life? 
+#### 8. What are you willing to struggle for?
+#### 9. What’s the solutions of the struggles?
+#### 10. What to do if you want an amazing physique?
+#### 11.What to do if you want a partner, a spouse? 
+#### 12. What to suffer if you want to start you own business? 
+#### 13. What’s the path to happiness?
+#### 14. What is the pain that you want to sustain?
+#### 15. Why we fail?
+#### 16. Who you are is defined by?
+
+### TO BE CONTINUED...
 
 
 ## favorite library books No. 2: 12 RULES FOR LIFE:
