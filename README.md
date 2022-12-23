@@ -83,6 +83,25 @@ RULE 11: Do not bother children when they are skateboarding;
 
 RULE 12: Pet a cat when you encounter one on the street.
 
+## favorite library books No. 3. 13 Things Mentally Strong People Don’t Do
+#### TAKE BACK YOUR POWER, EMBRACE CHANGE, FACE YOUR FEARS, TRAIN YOUR BRAIN FOR HAPPINESS AND SUCCESS
+##### Author: AMY MORIN and note By Lina Liu on Dec. 23. Sometimes negative is positive
+0. What is Mental Strength?
+1. THEY DON’T WASTE TIME FEELING SORRY FOR THEMSELVES
+2. THEY DON’T GIVE AWAY THEIR POWER
+3. THEY DON’T SHY AWAY FROM CHANGE
+4. THEY DON’T FOCUS ON THINGS THEY CAN’T CONTROL
+5. THEY DON’T WORRY ABOUT PLEASING EVERYONE
+6. THEY DON’T FEAR TAKING CALCULATED RISKS
+7. THEY DON’T DWELL ON THE PAST
+8. THEY DON’T MAKE THE SAME MISTAKE OVER AND OVER
+9. THEY DON’T RESENT OTHER PEOPLE’S SUCCESS
+10. THEY DON’T GIVE UP AFTER THE FIRST FAILURE
+11. THEY DON’T FFEAR ALONE TIME
+12. THEY DON’T FEEL THE WORLD OWES THEM ANYTHING
+13. THEY DON’T EXPECT IMMEDIATE RESULTS
+14. CONCLUSION: MAINTAINING MENTAL STRENGTH
+
 ## 礼仪
 ### 有礼走遍天下
 世事洞明皆学问，人情练达即文章
@@ -141,6 +160,10 @@ RULE 12: Pet a cat when you encounter one on the street.
 
 5）谦逊型：倾听，说对对对的人，要诚恳礼貌的介绍优点和缺点，才能获取信任。
 
+商务谈判：
+1） 尊重对方，谅解对方
+在交谈之前，适当调查对方状态，考虑和选择
+2） 与他人保持适当的距离
 
 
 
