@@ -40,9 +40,9 @@ It will teach you to take inventory of your life and scrub out all but the most 
 #### 16. Who you are is defined by?
 
 ### You are not special
-#### Why always self-confidence Jimmy failed?
-#### Why being entitled or entitle others is not a good thing?
-
+#### 17. Why always self-confidence Jimmy failed?
+#### 18. Why being entitled or entitle others is not a good thing?
+#### 19. What is True measurement of self-worth?
 ##### Please find answers in related The subtle art of not giveing a f.pdf file
 
 ## favorite library books No. 2: 12 RULES FOR LIFE:
