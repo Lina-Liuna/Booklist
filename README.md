@@ -44,7 +44,8 @@ It will teach you to take inventory of your life and scrub out all but the most 
 #### 18. Why being entitled or entitle others is not a good thing?
 #### 19. What is True measurement of self-worth?
 #### 20. what to do if you want to become truly exceptional at more than one thing?
-##### 21. Please find answers in related The subtle art of not giving a f.pdf file
+#### 21. The ticket to emotional health is?
+##### 22. Please find answers in related The subtle art of not giving a f.pdf file
 
 ## favorite library books No. 2: 12 RULES FOR LIFE:
 
