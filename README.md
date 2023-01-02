@@ -41,7 +41,9 @@ It will teach you to take inventory of your life and scrub out all but the most 
 
 ### You are not special
 #### Why always self-confidence Jimmy failed?
+#### Why being entitled or entitle others is not a good thing?
 
+##### Please find answers in related The subtle art of not giveing a f.pdf file
 
 ## favorite library books No. 2: 12 RULES FOR LIFE:
 
