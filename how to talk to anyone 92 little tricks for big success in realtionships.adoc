@@ -1,2 +1,5 @@
 ==== beginning
 image:gallery/how_to_talk_to_anyone_92_tricks/beginning.png[beginning,1000,,link="https://github.com/Lina-Liuna/Booklist/blob/main/gallery/how_to_talk_to_anyone_92_tricks/beginning.png"]
+
+==== part1
+image:gallery/how_to_talk_to_anyone_92_tricks/part1.png[part1,1000,,link="https://github.com/Lina-Liuna/Booklist/blob/main/gallery/how_to_talk_to_anyone_92_tricks/part1.png"]
