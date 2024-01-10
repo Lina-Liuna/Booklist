@@ -55,4 +55,12 @@
 === 54. where are you moving to?
 === 55. Can you recommend anyone?
 === 56. conservatory/extension cable/fusebox/radiator/socket/switch/thermostat/wood-burning stove/
-=== 57. gutter/
+=== 57. gutter/drainpipe/
+=== 58. would you like to come around?
+=== 59. Shall I take my shoes off?
+=== 60. doorbell/doormat/window blinds/coffee table/rug/airchair/
+=== 61. aluminium foil/apron/clingfilm/kitchen roll/to stir fry/baking tray/cafetiere/
+=== 62. casserole dish/colander/cooker hood/corkscrew/frying pan/garlic press/grater/ladle/masher/
+=== 63. measuring jug/mixing bowl/peeler/rolling pin/saucepan/sieve/spatula/tin opener/wok/hob/
+=== 64. tap/worktop/coaster/place mat/serving dish/to set the table/to clear the table/cpu and saucer/cutlery/
+=== 65. bunk beds/coat hanger/hairdryer/wardrobe/duvet/toilet roll/cabinet/bidet/
