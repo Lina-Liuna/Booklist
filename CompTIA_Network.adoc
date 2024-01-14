@@ -1,0 +1,667 @@
+CompTIA Network
+
+=== What Does This Book Cover?
+
+Chapter 1, “Introduction to Networks” This chapter includes an introduction to what a
+network is and an overview of the most common physical network topologies you'll find in
+today’s networks.
+
+Chapter 2, “The Open Systems Interconnection Specifications” This chapter covers the
+OSI model, what it is, what happens at each of its layers, and how each layer works.
+
+Chapter 3, “Networking Topologies, Connectors, and Wiring Standards” This chapter
+covers the various networking media and topologies, plus the cable types and properties
+used in today’s networks.
+
+Chapter 4, “The Current Ethernet Specifications” This chapter covers how a basic
+Ethernet LAN works and describes and categorizes the different Ethernet specifications.
+
+Chapter 5, “Networking Devices” It’s important for you to understand all the various
+devices used in today’s networks, and this chapter will describe how hubs, routers, and
+switches and some other devices work within a network.
+
+Chapter 6, “Introduction to the Internet Protocol” This is your introduction to the all-
+important IP protocol stack.
+
+Chapter 7, “IP Addressing” This chapter will take up from where Chapter 6 left off and
+move into IP addressing. It also contains information about public versus private addressing
+and DHCP.
+
+Chapter 8, “IP Subnetting, Troubleshooting IP, and Introduction to NAT” Beginning
+where Chapter 7 ends, we'll be tackling IP subnetting in this one. But no worries here—I’ve
+worked hard to make this not-so-popular-yet-vital topic as painless as possible.
+
+Chapter 9, “Introduction to IP Routing” This is an introduction to routing that basically cov-
+ers what routers do and how they do it. This chapter, along with Chapter 10 and Chapter 11,
+cover routing and switching in much more detail than what is necessary to meet the CompTIA
+Network+ objectives because this knowledge is so critical to grasp when working with today’s
+networks.
+
+Chapter 10, “Routing Protocols” This chapter goes into detail describing the protocols
+that run on routers and that update routing tables to create a working map of the network.
+
+Chapter 11, “Switching and Virtual LANs” This chapter covers Layer 2 switching, the
+Spanning Tree Protocol (STP), and virtual LANs. I went deeper than needed for the exam
+with the routing chapters, and I’ll cover switching and virtual LANs (which are also vital
+in today’s corporate networks) more thoroughly as well.
+
+Chapter 12, “Wireless Networking” Because wireless is so important for both home and
+business networks today, this chapter is loaded with all the information you need to be
+successful at wireless networking at home and work.
+
+Chapter 13, “Authentication and Access Control” This is the first of three security chapters.
+There are tons of exam objectives about network security that are so important that I took
+three chapters to cover all of them. In this chapter, I’ll introduce security, security filtering,
+tunneling, and user authentication.
+
+Chapter 14, “Network Threats and Mitigation” This is probably the most fun of the
+three security chapters because I'll tell you all about security threats and how to stop them.
+The only way to get good at network security is to implement it, and this chapter shows
+you how.
+
+Chapter 15, “Physical and Hardware Security” This chapter’s focus is on explaining basic
+firewalls, security devices, and device security.
+
+Chapter 16, “Wide Area Networks” In this chapter, you get to learn all about things like
+Frame Relay, E1/T1, DSL, cable modems, and more. All of the CompTIA Network+ WAN
+objectives are covered in this chapter.
+
+Chapter 17, “Troubleshooting Tools” This is also a fun chapter because again, you can
+follow along and run all the commands yourself. And I repeat, it’s a really good idea to run
+through all the commands in this chapter!
+
+Chapter 18, “Software and Hardware Tools” This chapter introduces you to the network
+tools you will use to help you run your networks. Both software and hardware tools will
+be discussed.
+
+Chapter 19, “Network Troubleshooting” In almost every chapter, I discuss how to verify
+and fix problems, but this chapter will really get into the nuts and bolts of detailed network
+troubleshooting and documentation.
+
+Chapter 20, “Management, Monitoring, and Optimization” This last chapter will pro-
+vide configuration-management documentation and covers wiring, logical diagrams, base-
+lines, policies, and regulations.
+
+=== Chapter 1 Introduction to Networks
+==== 1. First Things First: What’s a Network? 2
+
+The Local Area Network (LAN) 3
+
+Common Network Components 5
+
+Wide Area Network (WAN) 7
+
+Network Architecture: Peer-to-Peer or Client-Server? 9
+
+==== 2. Physical Network Topologies 12
+
+Bus Topology 12
+
+Star Topology 13
+
+Ring Topology 14
+
+Mesh Topology 15
+
+Point-to-Point Topology 16
+
+Point-to-Multipoint Topology 17
+
+Hybrid Topology 18
+
+==== 3. Topology Selection, Backbones, and Segments 18
+
+Selecting the Right Topology 19
+
+The Network Backbone 20
+
+Network Segments 21
+
+=== Chapter 2 The Open Systems Interconnection Specifications
+Internetworking Models 28
+
+The Layered Approach 28
+
+Advantages of Reference Models 29
+
+The OSI Reference Model 30
+
+The Application Layer 31
+
+The Presentation Layer 33
+
+The Session Layer 33
+
+The Transport Layer 33
+
+The Network Layer 39
+
+The Data Link Layer 42
+
+The Physical Layer 44
+
+Introduction to Encapsulation 45
+
+
+Summary
+
+Exam Essentials
+Written Lab
+Review Questions
+
+=== Chapter 3 Networking Topologies, Connectors, and Wiring Standards
+
+Physical Media
+Coaxial Cable
+Twisted-Pair Cable
+Fiber-Optic Cable
+Media Converters
+Broadband over Power Line
+Serial Cables
+Cable Properties
+Transmission Speeds
+Distance
+Duplex
+Noise Immunity (Security, EMI)
+Frequency
+Wiring Standards
+S68A vs. 568B
+Straight-Through Cable
+Crossover Cable
+T1 Crossover Cable
+Installing Wiring Distributions
+Summary
+Exam Essentials
+Written Lab
+Review Questions
+
+=== Chapter 4 The Current Ethernet Specifications
+
+Network Basics
+
+Ethernet Basics
+
+Collision Domain
+
+Broadcast Domain
+
+CSMA/CD
+
+Half- and Full-Duplex Ethernet
+Ethernet at the Data Link Layer
+Binary to Decimal and Hexadecimal Conversion
+Ethernet Addressing
+
+Ethernet Frames
+
+Channel Bonding
+
+Ethernet at the Physical Layer
+Summary
+
+=== Chapter 5 Networking Devices
+Common Network Connectivity Devices
+
+Hub
+
+Network Interface Card
+
+Bridge
+
+Switch
+
+Router
+
+Firewall
+
+Dynamic Host Configuration Protocol Server
+Other Specialized Devices
+
+Multilayer Switch
+
+Load Balancer
+
+Domain Name Service Server
+
+Proxy Server
+
+Encryption Devices
+
+VPN Concentrator
+
+Planning and Implementing a Basic SOHO Network Using Net-
+
+work Segmentation
+
+Determining Requirements
+Switches and Bridges at the Data Link Layer
+Hubs at the Physical Layer
+Environmental Considerations
+
+Summary
+
+Exam Essentials
+
+Written Lab
+
+Review Questions
+
+=== Chapter 6 Introduction to the Internet Protocol
+
+Introducing TCP/IP
+A Brief History of TCP/IP
+TCP/IP and the DoD Model
+The Process/Application Layer Protocols
+The Host-to-Host Layer Protocols
+The Internet Layer Protocols
+
+Data Encapsulation
+
+Summary
+
+Exam Essentials
+
+Written Lab
+
+Review Questions
+
+
+=== Chapter 7 IP Addressing
+
+IP Terminology
+
+The Hierarchical IP Addressing Scheme
+Network Addressing
+Private IP Addresses
+
+IPv4 Address Types
+Layer 2 Broadcasts
+Layer 3 Broadcasts
+Unicast Address
+Multicast Address
+
+Internet Protocol Version 6 (IPv6)
+Why Do We Need IPv6?
+The Benefits of and Uses for IPv6
+IPv6 Addressing and Expressions
+Shortened Expression
+Address Types
+Special Addresses
+
+Summary
+
+Exam Essentials
+
+Written Lab
+
+Review Questions
+
+=== Chapter 8. IP Subnetting, Troubleshooting IP, and Introduction to NAT
+
+Subnetting Basics
+How to Create Subnets
+Subnet Masks
+Classless Inter-Domain Routing (CIDR)
+Subnetting Class C Addresses
+Subnetting Class B Addresses
+Troubleshooting IP Addressing
+Determining IP Address Problems
+Introduction to Network Address Translation (NAT)
+Types of Network Address Translation
+NAT Names
+How NAT Works
+Summary
+Exam Essentials
+Written Labs
+Review Questions
+
+=== Chapter 9. Introduction to IP Routing
+
+Routing Basics
+
+The IP Routing Process
+
+Testing Your IP Routing Understanding
+Static and Dynamic Routing
+
+Summary
+
+Exam Essentials
+
+Written Lab
+
+Review Questions
+
+=== Chapter 10. Routing Protocols
+
+Routing Protocol Basics
+Administrative Distances
+Classes of Routing Protocols
+Distance Vector Routing Protocols
+Routing Information Protocol (RIP)
+RIP Version 2 (RIPv2)
+VLSM and Discontiguous Networks
+EIGRP
+Border Gateway Protocol (BGP)
+Link State Routing Protocols
+Open Shortest Path First (OSPF)
+Intermediate System-to-Intermediate System (IS-IS)
+IPv6 Routing Protocols
+RIPng
+EIGRPv6
+OSPFv3
+Summary
+Exam Essentials
+Written Lab
+Review Questions
+
+=== Chapter 11. Switching and Virtual LANs
+
+Networking Before Layer 2 Switching
+Switching Services
+
+Limitations of Layer 2 Switching
+
+Bridging vs. LAN Switching
+
+Three Switch Functions at Layer 2
+Spanning Tree Protocol
+
+Spanning-Tree Port States
+
+STP Convergence
+
+Rapid Spanning Tree Protocol 802.1w
+
+
+Virtual LANs
+VLAN Basics
+Quality of Service
+VLAN Memberships
+Static VLANs
+Dynamic VLANs
+Identifying VLANs
+VLAN Identification Methods
+VLAN Trunking Protocol
+VTP Modes of Operation
+Configuring VTP
+Two Additional Advanced Features of Switches
+Power over Ethernet
+Port Mirroring/Spanning
+Summary
+Exam Essentials
+Written Lab
+Review Questions
+
+=== Chapter 12. Wireless Networking
+Introduction to Wireless Technology
+The 802.11 Standards
+2.4GHz (802.11b)
+2.4GHz (802.11g)
+SGHz (802.11a)
+5GHz (802.11h)
+2.4GHz/S5GHz (802.11n)
+Comparing 802.11 Standards
+Range Comparisons
+Wireless Network Components
+Wireless Access Points
+Wireless Network Interface Card
+Wireless Antennas
+Installing a Wireless Network
+Ad Hoc Mode: Independent Basic Service Set
+Infrastructure Mode: Basic Service Set
+Signal Degradation
+Installing and Configuring Hardware
+Wireless Security
+Open Access
+Service Set Identifiers, Wired Equivalent Privacy,
+and Media Access Control Address Authentication
+Remote Authentication Dial In User Service
+
+Temporal Key Integrity Protocol
+Wi-Fi Protected Access or WPA 2 Pre-Shared Key
+Summary
+Exam Essentials
+Written Lab
+Review Questions
+
+=== Chapter 13. Authentication and Access Control
+
+Security Filtering
+Access Control Lists
+Tunneling
+Encryption
+Remote Access
+Managing User Account and Password Security
+Managing User Accounts
+Managing Passwords
+Single Sign-On
+Multifactor Authentication
+User-Authentication Methods
+Public Key Infrastructure (PKI)
+Kerberos
+Authentication, Authorization, and Accounting (AAA)
+Network Access Control (NAC)
+Challenge Handshake Authentication Protocol (CHAP)
+MS-CHAP
+Extensible Authentication Protocol (EAP)
+Summary
+Exam Essentials
+Written Lab
+Review Questions
+
+=== Chapter 14. Network Threats and Mitigation
+
+Recognizing Security Threats
+Denial of Service
+Viruses
+Worms
+Buffer Overflow
+Wireless Threats
+Attackers and Their Tools
+Social Engineering (Phishing)
+Understanding Mitigation Techniques
+Active Detection
+Passive Detection
+Proactive Defense
+
+Policies and Procedures
+Security Policies
+Security Training
+Patches and Upgrades
+Updating Antivirus Components
+Fixing an Infected Computer
+Summary
+Exam Essentials
+Written Lab
+Review Questions
+
+=== Chapter 15. Physical and Hardware Security
+
+Using Hardware and Software Security Devices
+Defining Firewalls
+Network-Based Firewalls
+Host-Based Firewalls
+Firewall Technologies
+Access Control Lists
+Port Security
+Demilitarized Zone
+Protocol Switching
+Dynamic Packet Filtering
+Proxy Services
+Firewalls at the Application Layer vs. the Network Layer
+Stateful vs. Stateless Network Layer Firewalls
+Application Layer Firewalls
+Scanning Services and Other Firewall Features
+Content Filtering
+Signature Identification
+Zones
+Intrusion Detection and Prevention Systems
+Network-Based IDS
+Host-Based IDS
+Vulnerability Scanners
+VPN Concentrators
+Understanding Problems Affecting Device Security
+Physical Security
+Logical Security Configurations
+Summary
+Exam Essentials
+Written Lab
+Review Questions
+
+=== Chapter 16. Wide Area Networks
+
+What’s a WAN?
+Defining WAN Terms
+The Public Switched Telephone Network
+WAN Connection Types
+Bandwidth or Speed
+T-Series Connections
+The T1 Connection
+The T3 Connection
+Transmission Media
+Wired Connections
+Dense Wavelength Division Multiplexing
+Passive Optical Network
+Wireless Technologies
+Broadband Services
+DSL Technology and xDSL
+Cable Modem
+Wireless WAN Technologies
+Cellular WAN
+WAN Protocols
+Integrated Services Digital Network
+Frame Relay Technology
+Asynchronous Transfer Mode
+Summary
+Exam Essentials
+Written Lab
+Review Questions
+
+=== Chapter 17. Troubleshooting Tools
+
+Protocol Analyzers
+Throughput Testers
+Connectivity Software
+Using Traceroute
+Using ipconfig and ifconfig
+Using the ipconfig Utility
+Using the ifconfig Utility
+Using the ping Utility
+Using the Address Resolution Protocol
+The Windows ARP Table
+Using the arp Utility
+Using the nslookup Utility
+Resolving Names with the Hosts Table
+Using the Mtr Command
+Using the route Command
+Using the route Command Options
+Some Examples of the route Command
+Using the nbtstat Utility
+he -a Switch
+he -A Switch
+he —c Switch
+he —n Switch
+he -r Switch
+he —R Switch
+he —S Switch
+he —s Switch
+the netstat Utility
+he -a Switch
+he -e Switch
+he -r Switch
+he —s Switch
+he —p Switch
+he — Switch
+Using the File Transfer Protocol
+Starting FTP and Logging In to an FTP Server
+Downloading Files
+Uploading Files
+Using the Telnet Utility
+How to Enable Telnet in Vista
+Don’t Use Telnet, Use Secure Shell
+Summary
+Exam Essentials
+Written Lab
+Review Questions
+
+
+=== Chapter 18. Software and Hardware Tools
+
+Understanding Network Scanners
+Packet Sniffers
+Intrusion Detection and Prevention Software
+Port Scanners
+Identifying Hardware Tools
+Cable Testers
+Protocol Analyzer
+Certifiers
+Time-Domain Reflectometer
+Optical Time-Domain Reflectometer
+Multimeter
+Toner Probe
+Butt Set
+Punch-Down Tool
+Cable Stripper/Snips
+Voltage Event Recorder
+Environmental Monitors
+Summary
+Exam Essentials
+Written Lab
+Review Questions
+
+=== Chapter 19. Network Troubleshooting
+
+Narrowing Down the Problem
+Are There Any Cabling Issues? Did You Check
+the Super Simple Stuff?
+Is Hardware or Software Causing the Problem?
+Is Ita Workstation or a Server Problem?
+Which Segments of the Network Are Affected?
+Is It Bad Cabling?
+Troubleshooting Steps
+Step 1: Identify the Problem
+Step 2: Establish a Theory of Probable Cause
+Step 3: Test the Theory to Determine Cause
+Step 4: Establish a Plan of Action to Resolve the
+Problem and Identify Potential Effects
+Step 5: Implement the Solution or Escalate as Necessary
+Step 6: Verify Full System Functionality and
+If Applicable Implement Preventative Measures
+Step 7: Document Findings, Actions, and Outcomes
+Troubleshooting Tips
+Don’t Overlook the Small Stuff
+Prioritize Your Problems
+Check the Software Configuration
+Don’t Overlook Physical Conditions
+Don’t Overlook Cable Problems
+Check for Viruses
+Summary
+Exam Essentials
+Written Lab
+Review Questions
+
+=== Chapter 20. Management, Monitoring, and Optimization
+
+Managing Network Documentation
+Using SNMP
+Schematics and Diagrams
+Baselines
+Policies, Procedures, and Regulations
+Monitoring the Network and Optimizing Its Performance
+Network Monitoring and Logging
+Reasons to Optimize Your Network’s Performance
+How to Optimize Performance
+Virtual Networking
+Summary
+Exam Essentials
+Written Lab
+Review Questions
+
+
+certification.comptia.org/Training/testingcenters/
+
+http://certification.comptia.org/getCertified/steps_to_certification/
+stayCertified.aspx
+
+http: //itpro.comptia.org
