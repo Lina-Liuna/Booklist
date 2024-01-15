@@ -1,5 +1,4 @@
 CompTIA Network
-
 === What Does This Book Cover?
 
 Chapter 1, “Introduction to Networks” This chapter includes an introduction to what a
@@ -118,13 +117,13 @@ The Network Backbone 20
 Network Segments 21
 
 === Chapter 2 The Open Systems Interconnection Specifications
-Internetworking Models 28
 
+==== 1. Internetworking Models 28
 The Layered Approach 28
 
 Advantages of Reference Models 29
 
-The OSI Reference Model 30
+===== 2. The OSI Reference Model 30
 
 The Application Layer 31
 
@@ -140,7 +139,7 @@ The Data Link Layer 42
 
 The Physical Layer 44
 
-Introduction to Encapsulation 45
+==== 3. Introduction to Encapsulation 45
 
 
 Summary
@@ -151,25 +150,33 @@ Review Questions
 
 === Chapter 3 Networking Topologies, Connectors, and Wiring Standards
 
-Physical Media
+==== 1. Physical Media
 Coaxial Cable
+
 Twisted-Pair Cable
+
 Fiber-Optic Cable
+
 Media Converters
+
 Broadband over Power Line
+
 Serial Cables
-Cable Properties
+
+==== 2. Cable Properties
 Transmission Speeds
 Distance
 Duplex
 Noise Immunity (Security, EMI)
 Frequency
-Wiring Standards
+
+==== 3. Wiring Standards
 S68A vs. 568B
 Straight-Through Cable
 Crossover Cable
 T1 Crossover Cable
-Installing Wiring Distributions
+
+==== 4. Installing Wiring Distributions
 Summary
 Exam Essentials
 Written Lab
@@ -177,9 +184,9 @@ Review Questions
 
 === Chapter 4 The Current Ethernet Specifications
 
-Network Basics
+==== 1. Network Basics
 
-Ethernet Basics
+==== 2. Ethernet Basics
 
 Collision Domain
 
@@ -188,7 +195,8 @@ Broadcast Domain
 CSMA/CD
 
 Half- and Full-Duplex Ethernet
-Ethernet at the Data Link Layer
+
+==== 3. Ethernet at the Data Link Layer
 Binary to Decimal and Hexadecimal Conversion
 Ethernet Addressing
 
@@ -196,12 +204,11 @@ Ethernet Frames
 
 Channel Bonding
 
-Ethernet at the Physical Layer
+==== 4. Ethernet at the Physical Layer
 Summary
 
 === Chapter 5 Networking Devices
-Common Network Connectivity Devices
-
+==== 1. Common Network Connectivity Devices
 Hub
 
 Network Interface Card
@@ -215,7 +222,8 @@ Router
 Firewall
 
 Dynamic Host Configuration Protocol Server
-Other Specialized Devices
+
+==== 2. Other Specialized Devices
 
 Multilayer Switch
 
@@ -229,7 +237,7 @@ Encryption Devices
 
 VPN Concentrator
 
-Planning and Implementing a Basic SOHO Network Using Net-
+==== 3. Planning and Implementing a Basic SOHO Network Using Net-
 
 work Segmentation
 
@@ -248,14 +256,14 @@ Review Questions
 
 === Chapter 6 Introduction to the Internet Protocol
 
-Introducing TCP/IP
+==== 1. Introducing TCP/IP
 A Brief History of TCP/IP
 TCP/IP and the DoD Model
 The Process/Application Layer Protocols
 The Host-to-Host Layer Protocols
 The Internet Layer Protocols
 
-Data Encapsulation
+==== 2. Data Encapsulation
 
 Summary
 
@@ -268,19 +276,19 @@ Review Questions
 
 === Chapter 7 IP Addressing
 
-IP Terminology
+==== 1. IP Terminology
 
-The Hierarchical IP Addressing Scheme
+==== 2. The Hierarchical IP Addressing Scheme
 Network Addressing
 Private IP Addresses
 
-IPv4 Address Types
+==== 3. IPv4 Address Types
 Layer 2 Broadcasts
 Layer 3 Broadcasts
 Unicast Address
 Multicast Address
 
-Internet Protocol Version 6 (IPv6)
+==== 4. Internet Protocol Version 6 (IPv6)
 Why Do We Need IPv6?
 The Benefits of and Uses for IPv6
 IPv6 Addressing and Expressions
@@ -298,15 +306,17 @@ Review Questions
 
 === Chapter 8. IP Subnetting, Troubleshooting IP, and Introduction to NAT
 
-Subnetting Basics
+==== 1. Subnetting Basics
 How to Create Subnets
 Subnet Masks
 Classless Inter-Domain Routing (CIDR)
 Subnetting Class C Addresses
 Subnetting Class B Addresses
-Troubleshooting IP Addressing
+
+==== 2. Troubleshooting IP Addressing
 Determining IP Address Problems
-Introduction to Network Address Translation (NAT)
+
+==== 3. Introduction to Network Address Translation (NAT)
 Types of Network Address Translation
 NAT Names
 How NAT Works
@@ -317,12 +327,13 @@ Review Questions
 
 === Chapter 9. Introduction to IP Routing
 
-Routing Basics
+==== 1. Routing Basics
 
-The IP Routing Process
+==== 2. The IP Routing Process
 
-Testing Your IP Routing Understanding
-Static and Dynamic Routing
+==== 3. Testing Your IP Routing Understanding
+
+==== 4. Static and Dynamic Routing
 
 Summary
 
@@ -334,19 +345,22 @@ Review Questions
 
 === Chapter 10. Routing Protocols
 
-Routing Protocol Basics
+==== 1. Routing Protocol Basics
 Administrative Distances
 Classes of Routing Protocols
-Distance Vector Routing Protocols
+
+==== 2. Distance Vector Routing Protocols
 Routing Information Protocol (RIP)
 RIP Version 2 (RIPv2)
 VLSM and Discontiguous Networks
 EIGRP
 Border Gateway Protocol (BGP)
-Link State Routing Protocols
+
+==== 3. Link State Routing Protocols
 Open Shortest Path First (OSPF)
 Intermediate System-to-Intermediate System (IS-IS)
-IPv6 Routing Protocols
+
+==== 4. IPv6 Routing Protocols
 RIPng
 EIGRPv6
 OSPFv3
@@ -357,15 +371,17 @@ Review Questions
 
 === Chapter 11. Switching and Virtual LANs
 
-Networking Before Layer 2 Switching
-Switching Services
+==== 1. Networking Before Layer 2 Switching
+
+==== 2. Switching Services
 
 Limitations of Layer 2 Switching
 
 Bridging vs. LAN Switching
 
 Three Switch Functions at Layer 2
-Spanning Tree Protocol
+
+==== 3. Spanning Tree Protocol
 
 Spanning-Tree Port States
 
@@ -374,7 +390,7 @@ STP Convergence
 Rapid Spanning Tree Protocol 802.1w
 
 
-Virtual LANs
+==== 4. Virtual LANs
 VLAN Basics
 Quality of Service
 VLAN Memberships
@@ -382,10 +398,12 @@ Static VLANs
 Dynamic VLANs
 Identifying VLANs
 VLAN Identification Methods
-VLAN Trunking Protocol
+
+==== 5. VLAN Trunking Protocol
 VTP Modes of Operation
 Configuring VTP
-Two Additional Advanced Features of Switches
+
+==== 6. Two Additional Advanced Features of Switches
 Power over Ethernet
 Port Mirroring/Spanning
 Summary
@@ -394,25 +412,30 @@ Written Lab
 Review Questions
 
 === Chapter 12. Wireless Networking
-Introduction to Wireless Technology
-The 802.11 Standards
+==== 1. Introduction to Wireless Technology
+
+==== 2. The 802.11 Standards
 2.4GHz (802.11b)
 2.4GHz (802.11g)
 SGHz (802.11a)
 5GHz (802.11h)
 2.4GHz/S5GHz (802.11n)
-Comparing 802.11 Standards
+
+==== 3. Comparing 802.11 Standards
 Range Comparisons
-Wireless Network Components
+
+==== 4. Wireless Network Components
 Wireless Access Points
 Wireless Network Interface Card
 Wireless Antennas
-Installing a Wireless Network
+
+==== 5. Installing a Wireless Network
 Ad Hoc Mode: Independent Basic Service Set
 Infrastructure Mode: Basic Service Set
 Signal Degradation
 Installing and Configuring Hardware
-Wireless Security
+
+==== 6. Wireless Security
 Open Access
 Service Set Identifiers, Wired Equivalent Privacy,
 and Media Access Control Address Authentication
@@ -427,17 +450,19 @@ Review Questions
 
 === Chapter 13. Authentication and Access Control
 
-Security Filtering
+==== 1. Security Filtering
 Access Control Lists
 Tunneling
 Encryption
 Remote Access
-Managing User Account and Password Security
+
+==== 2. Managing User Account and Password Security
 Managing User Accounts
 Managing Passwords
 Single Sign-On
 Multifactor Authentication
-User-Authentication Methods
+
+==== 3. User-Authentication Methods
 Public Key Infrastructure (PKI)
 Kerberos
 Authentication, Authorization, and Accounting (AAA)
@@ -452,7 +477,7 @@ Review Questions
 
 === Chapter 14. Network Threats and Mitigation
 
-Recognizing Security Threats
+==== 1. Recognizing Security Threats
 Denial of Service
 Viruses
 Worms
@@ -460,12 +485,13 @@ Buffer Overflow
 Wireless Threats
 Attackers and Their Tools
 Social Engineering (Phishing)
-Understanding Mitigation Techniques
+
+==== 2. Understanding Mitigation Techniques
 Active Detection
 Passive Detection
 Proactive Defense
 
-Policies and Procedures
+==== 3. Policies and Procedures
 Security Policies
 Security Training
 Patches and Upgrades
@@ -478,30 +504,37 @@ Review Questions
 
 === Chapter 15. Physical and Hardware Security
 
-Using Hardware and Software Security Devices
-Defining Firewalls
+==== 1. Using Hardware and Software Security Devices
+
+==== 2. Defining Firewalls
 Network-Based Firewalls
 Host-Based Firewalls
-Firewall Technologies
+
+==== 3. Firewall Technologies
 Access Control Lists
 Port Security
 Demilitarized Zone
 Protocol Switching
 Dynamic Packet Filtering
 Proxy Services
-Firewalls at the Application Layer vs. the Network Layer
+
+==== 4. Firewalls at the Application Layer vs. the Network Layer
 Stateful vs. Stateless Network Layer Firewalls
 Application Layer Firewalls
-Scanning Services and Other Firewall Features
+
+==== 5. Scanning Services and Other Firewall Features
 Content Filtering
 Signature Identification
 Zones
-Intrusion Detection and Prevention Systems
+
+==== 6. Intrusion Detection and Prevention Systems
 Network-Based IDS
 Host-Based IDS
 Vulnerability Scanners
-VPN Concentrators
-Understanding Problems Affecting Device Security
+
+==== 7. VPN Concentrators
+
+==== 8. Understanding Problems Affecting Device Security
 Physical Security
 Logical Security Configurations
 Summary
@@ -511,25 +544,31 @@ Review Questions
 
 === Chapter 16. Wide Area Networks
 
-What’s a WAN?
+==== 1. What’s a WAN?
 Defining WAN Terms
 The Public Switched Telephone Network
 WAN Connection Types
 Bandwidth or Speed
-T-Series Connections
+
+==== 2. T-Series Connections
 The T1 Connection
 The T3 Connection
-Transmission Media
+
+==== 3. Transmission Media
 Wired Connections
 Dense Wavelength Division Multiplexing
 Passive Optical Network
 Wireless Technologies
-Broadband Services
+
+==== 4. Broadband Services
 DSL Technology and xDSL
 Cable Modem
-Wireless WAN Technologies
+
+==== 5. Wireless WAN Technologies
 Cellular WAN
-WAN Protocols
+
+==== 6. WAN Protocols
+
 Integrated Services Digital Network
 Frame Relay Technology
 Asynchronous Transfer Mode
@@ -540,24 +579,33 @@ Review Questions
 
 === Chapter 17. Troubleshooting Tools
 
-Protocol Analyzers
-Throughput Testers
-Connectivity Software
-Using Traceroute
-Using ipconfig and ifconfig
+==== 1. Protocol Analyzers
+
+==== 2. Throughput Testers
+
+==== 3. Connectivity Software
+
+==== 4. Using Traceroute
+
+==== 5. Using ipconfig and ifconfig
+
 Using the ipconfig Utility
 Using the ifconfig Utility
-Using the ping Utility
-Using the Address Resolution Protocol
+
+==== 6. Using the ping Utility
+
+==== 7. Using the Address Resolution Protocol
 The Windows ARP Table
 Using the arp Utility
-Using the nslookup Utility
-Resolving Names with the Hosts Table
-Using the Mtr Command
-Using the route Command
+
+==== 8. Using the nslookup Utility
+==== 9. Resolving Names with the Hosts Table
+==== 10. Using the Mtr Command
+==== 11. Using the route Command
 Using the route Command Options
 Some Examples of the route Command
-Using the nbtstat Utility
+
+==== 12. Using the nbtstat Utility
 he -a Switch
 he -A Switch
 he —c Switch
@@ -566,18 +614,21 @@ he -r Switch
 he —R Switch
 he —S Switch
 he —s Switch
-the netstat Utility
+
+==== 13. the netstat Utility
 he -a Switch
 he -e Switch
 he -r Switch
 he —s Switch
 he —p Switch
 he — Switch
-Using the File Transfer Protocol
+
+==== 14. Using the File Transfer Protocol
 Starting FTP and Logging In to an FTP Server
 Downloading Files
 Uploading Files
-Using the Telnet Utility
+
+==== 15. Using the Telnet Utility
 How to Enable Telnet in Vista
 Don’t Use Telnet, Use Secure Shell
 Summary
@@ -588,11 +639,12 @@ Review Questions
 
 === Chapter 18. Software and Hardware Tools
 
-Understanding Network Scanners
+==== 1. Understanding Network Scanners
 Packet Sniffers
 Intrusion Detection and Prevention Software
 Port Scanners
-Identifying Hardware Tools
+
+==== 2. Identifying Hardware Tools
 Cable Testers
 Protocol Analyzer
 Certifiers
@@ -612,14 +664,15 @@ Review Questions
 
 === Chapter 19. Network Troubleshooting
 
-Narrowing Down the Problem
+==== 1. Narrowing Down the Problem
 Are There Any Cabling Issues? Did You Check
 the Super Simple Stuff?
 Is Hardware or Software Causing the Problem?
 Is Ita Workstation or a Server Problem?
 Which Segments of the Network Are Affected?
 Is It Bad Cabling?
-Troubleshooting Steps
+
+==== 2. Troubleshooting Steps
 Step 1: Identify the Problem
 Step 2: Establish a Theory of Probable Cause
 Step 3: Test the Theory to Determine Cause
@@ -629,7 +682,8 @@ Step 5: Implement the Solution or Escalate as Necessary
 Step 6: Verify Full System Functionality and
 If Applicable Implement Preventative Measures
 Step 7: Document Findings, Actions, and Outcomes
-Troubleshooting Tips
+
+==== 3. Troubleshooting Tips
 Don’t Overlook the Small Stuff
 Prioritize Your Problems
 Check the Software Configuration
@@ -643,12 +697,13 @@ Review Questions
 
 === Chapter 20. Management, Monitoring, and Optimization
 
-Managing Network Documentation
+==== 1. Managing Network Documentation
 Using SNMP
 Schematics and Diagrams
 Baselines
 Policies, Procedures, and Regulations
-Monitoring the Network and Optimizing Its Performance
+
+==== 2. Monitoring the Network and Optimizing Its Performance
 Network Monitoring and Logging
 Reasons to Optimize Your Network’s Performance
 How to Optimize Performance
