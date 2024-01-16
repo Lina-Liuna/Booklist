@@ -786,6 +786,42 @@ Protocols: HTTP/HTTPS, FTP, SMTP, POP3, IMAP
 
 ==== 1.3 Explain the purpose and properties of IP addressing.
 
+===== 1. Purpose of IP Addressing:
+*Host Identification*:=
+The primary purpose of IP addressing is to uniquely identify and locate devices (hosts) on a network. Every device connected to a network must have a unique IP address to enable communication.
+
+*Routing*:
+IP addresses are used for routing data across networks. Routers use the destination IP address in the packets to determine the next hop on the network path towards the intended destination.
+
+*Logical Addressing*:
+IP addresses provide a logical addressing scheme that abstracts the underlying physical network. This allows for flexibility and scalability as devices can be added or removed without changing the entire physical infrastructure.
+
+*Communication*:
+IP addressing enables communication between devices within the same network or across different networks. Devices use IP addresses to send and receive data packets, allowing for end-to-end communication.
+
+*Internet Connectivity*:
+IP addresses are essential for devices to connect to the global Internet. Public IP addresses are assigned to devices connected directly to the Internet, allowing them to communicate with other devices worldwide.
+
+===== 2. Properties of IP Addressing:
+
+*Uniqueness*:
+
+*Hierarchical Structure*:
+
+IP addresses are structured hierarchically, with different classes and subnets. This hierarchy allows for efficient and organized addressing, making it easier to manage large networks.
+
+*Versioning*:
+IP addresses exist in two main versions: IPv4 (32-bit) and IPv6 (128-bit). IPv4 is the most widely used, but due to the exhaustion of IPv4 addresses, IPv6 is introduced to provide a larger address space.
+
+*Dynamic and Static Assignment*:
+IP addresses can be assigned dynamically through DHCP (Dynamic Host Configuration Protocol) or statically configured. Dynamic assignment is common for end-user devices, while servers and network infrastructure may use static assignments.
+
+*Public and Private Addressing*:
+IP addresses are categorized as public or private. Public addresses are routable on the global Internet, while private addresses are used within private networks and are not routable on the Internet.
+
+*Subnetting*:
+Subnetting allows the division of an IP network into smaller, manageable sub-networks. It aids in efficient address utilization and network organization.
+
 2.0 Network Installation and Configuration 23%
 
 3.0 Network Media and Topologies 17%
