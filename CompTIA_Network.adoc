@@ -822,6 +822,77 @@ IP addresses are categorized as public or private. Public addresses are routable
 *Subnetting*:
 Subnetting allows the division of an IP network into smaller, manageable sub-networks. It aids in efficient address utilization and network organization.
 
+==== 1.4 Explain the purpose and properties of routing and switching.
+Routing and switching are fundamental building blocks of any network, but they tackle different tasks on different levels:
+
+===== 1. Switching:
+*Purpose*:
+Connects devices within a single network segment (like a local area network, LAN) by forwarding data packets based on their MAC addresses. Think of it like a smart mail sorter that reads the recipient's name (MAC address) and sends it to the appropriate delivery point (network port).
+
+*Properties*:
+Layer 2 device: Operates at the data link layer of the OSI model.
+High speed: Switches forward data very quickly, often at gigabit or even terabit speeds.
+Limited scope: Only works within a single network segment.
+Broadcast domain: All devices connected to a switch receive all broadcast packets, regardless of the intended recipient.
+
+===== 2. Routing:
+
+*Purpose*:
+Connects multiple networks together by forwarding data packets based on their IP addresses. Imagine it as a traffic controller directing vehicles based on their final destinations and choosing the optimal route through a network of roads.
+
+*Properties*:
+Layer 3 device: Operates at the network layer of the OSI model.
+Intelligent path selection: Uses routing protocols to determine the best path for a packet to reach its destination across multiple networks.
+Larger scope: Connects different networks, enabling communication across organizations or geographical locations.
+Segmentation: Routers divide networks into smaller segments, reducing broadcast traffic and improving security.
+
+Here's a simple analogy:
+Think of your home network as a building.
+Switches connect devices within each room (segments), while the router acts as the front door, connecting your building (network) to the outside world (other networks).
+
+*To summarize*:
+
+Switching: For fast, efficient communication within a single network segment.
+Routing: For connecting and navigating between different networks.
+They both play crucial roles in building and managing efficient and secure networks, keeping the data flowing smoothly between devices.
+
+==== 1.5 Identify common TCP and UDP default ports.
+
+SMTP - 25
+HTTP - 80
+HTTPS - 443
+FTP — 20, 21
+TELNET - 23
+IMAP - 143
+RDP - 3389
+SSH-22
+DNS-53 .
+DHCP - 67, 68
+
+==== 1.6 Explain the function of common networking protocols. .
+» TCP
+= FTP
+= UDP .
+= TCP/IP suite .
+= DHCP .
+= TFTP .
+= DNS
+= HTTPS .
+= HTTP .
+= ARP .
+= SIP (VoIP) .
+= RTP (VoIP) .
+= SSH .
+= POP3
+= NTP
+= IMAP4
+= Telnet .
+- SMTP :
+~  SNMP2/3 :
+= ICMP .
+- IGMP :
+» TLS .
+
 2.0 Network Installation and Configuration 23%
 
 3.0 Network Media and Topologies 17%
