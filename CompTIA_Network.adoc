@@ -870,29 +870,184 @@ DNS-53 .
 DHCP - 67, 68
 
 ==== 1.6 Explain the function of common networking protocols. .
-» TCP
-= FTP
-= UDP .
-= TCP/IP suite .
-= DHCP .
-= TFTP .
-= DNS
-= HTTPS .
-= HTTP .
-= ARP .
-= SIP (VoIP) .
-= RTP (VoIP) .
-= SSH .
-= POP3
-= NTP
-= IMAP4
-= Telnet .
-- SMTP :
-~  SNMP2/3 :
-= ICMP .
-- IGMP :
-» TLS .
+ **Here's an explanation of the functions of common networking protocols:**
 
+**Transmission Control Protocol (TCP):**
+
+* Provides reliable, ordered, and error-checked delivery of data between applications.
+* Uses a handshake process to establish connections and sequence numbers to ensure data arrives in the correct order.
+* Employs acknowledgements (ACKs) and retransmissions to handle lost or corrupted packets.
+* Commonly used for web browsing, file transfers, email, and other applications that require reliable data delivery.
+
+**File Transfer Protocol (FTP):**
+
+* Specifically designed for transferring files between computers over a network.
+* Uses TCP for reliable data transfer.
+* Supports features like authentication, file listing, directory navigation, and file transfer modes (ASCII or binary).
+
+**User Datagram Protocol (UDP):**
+
+* Offers a connectionless, unreliable transport service.
+* Doesn't guarantee delivery or order of packets.
+* Used for applications that prioritize speed over reliability, such as video streaming, online gaming, and voice over IP (VoIP).
+
+**TCP/IP Suite:**
+
+* A collection of protocols that form the foundation of the internet.
+* Named after its two core protocols, TCP and IP (Internet Protocol).
+* Includes other essential protocols like UDP, ICMP, DNS, DHCP, and more.
+
+**Dynamic Host Configuration Protocol (DHCP):**
+
+* Automatically assigns IP addresses to devices on a network.
+* Simplifies network administration and configuration.
+* Commonly used in home and business networks.
+
+**Trivial File Transfer Protocol (TFTP):**
+
+* A simpler version of FTP for basic file transfers.
+* Often used for transferring small files or firmware updates.
+
+**Domain Name System (DNS):**
+
+* Translates human-readable domain names (like [www.google.com](https://www.google.com)) into machine-readable IP addresses (like 172.217.4.206).
+* Essential for accessing websites and other internet resources.
+
+**Hypertext Transfer Protocol Secure (HTTPS):**
+
+* Secure version of HTTP, the protocol for web browsing.
+* Uses TLS (Transport Layer Security) to encrypt communication and protect data privacy.
+
+**Hypertext Transfer Protocol (HTTP):**
+
+* Foundation for data communication on the web.
+* Defines how web browsers and servers interact to exchange information.
+
+**Address Resolution Protocol (ARP):**
+
+* Resolves IP addresses to MAC addresses (physical hardware addresses) on a local network.
+* Essential for communication between devices on the same network segment.
+
+**Session Initiation Protocol (SIP):**
+
+* Signaling protocol for initiating and managing VoIP calls.
+* Handles tasks like call setup, termination, and features like call forwarding and voicemail.
+
+**Real-time Transport Protocol (RTP):**
+
+* Carries the actual audio or video data in VoIP calls.
+* Designed for real-time transmission with low latency.
+
+**Secure Shell (SSH):**
+
+* Secure protocol for remote access and administration of computers.
+* Encrypts all communication to protect sensitive data.
+
+**Post Office Protocol 3 (POP3):**
+
+* Older protocol for retrieving email from a server.
+* Typically downloads emails to a local device for offline access.
+
+**Network Time Protocol (NTP):**
+
+* Synchronizes clocks between devices on a network.
+* Ensures accurate timekeeping for various applications and services.
+
+**Internet Message Access Protocol 4 (IMAP4):**
+
+* Modern protocol for accessing email on a server.
+* Allows users to view and manage emails on the server without downloading them.
+
+**Telnet:**
+
+* Unsecure protocol for remote access and text-based communication with computers.
+* Rarely used today due to security concerns.
+
+**Simple Mail Transfer Protocol (SMTP):**
+
+* Standard protocol for sending email over the internet.
+
+**Simple Network Management Protocol (SNMP):**
+
+* Protocol for managing and monitoring network devices.
+* Allows administrators to collect information about device status, performance, and configuration.
+
+**Internet Control Message Protocol (ICMP):**
+
+* Used for diagnostic and control purposes in IP networks.
+* Common tools like ping and traceroute rely on ICMP.
+
+**Internet Group Management Protocol (IGMP):**
+
+* Manages multicast group membership on IP networks.
+* Used for efficient delivery of multicast traffic, such as video streaming.
+
+**Transport Layer Security (TLS):**
+
+* Encryption protocol that provides secure communication over the internet.
+* Used in HTTPS, email, and other applications to protect sensitive data.
+
+
+==== 1.7 summary of DNS concepts and components:**
+
+**Domain Name System (DNS):**
+
+- **Purpose:** Translates human-readable domain names (like [www.google.com](https://www.google.com)) into machine-readable IP addresses (like 172.217.4.206), enabling internet communication.
+- **Essential for:** Accessing websites, sending emails, and using other internet services that rely on domain names.
+
+**Key Components:**
+
+1. **Domain Names:**
+   - Unique identifiers for websites and other internet resources.
+   - Consist of multiple parts (e.g., www, google, com), forming a hierarchical structure.
+2. **DNS Servers:**
+   - Store and distribute information about domain names and their corresponding IP addresses.
+   - Types include:
+     - **Root servers:** The top-level servers in the DNS hierarchy.
+     - **TLD servers:** Manage domain names within specific top-level domains (e.g., .com, .net, .org).
+     - **Authoritative servers:** Hold definitive information for specific domains.
+     - **Recursive servers:** Act as intermediaries, querying other servers on behalf of clients.
+3. **DNS Zones:**
+   - Administrative sections of the DNS namespace.
+   - Each zone contains records for a specific domain or subdomain.
+4. **DNS Records:**
+   - Individual pieces of information within a DNS zone.
+   - Common types include:
+     - **A records:** Map domain names to IPv4 addresses.
+     - **AAAA records:** Map domain names to IPv6 addresses.
+     - **CNAME records:** Create aliases for domain names.
+     - **MX records:** Specify email servers for a domain.
+
+**DNS Lookup Process (Simplified):**
+
+1. User enters a domain name in a web browser or application.
+2. Device's DNS resolver contacts a recursive server to initiate the lookup.
+3. Recursive server queries various DNS servers in the hierarchy.
+4. Authoritative server provides the final IP address answer.
+5. Recursive server returns the IP address to the device.
+6. Device can now connect to the desired website or resource using the IP address.
+
+*Dynamic DNS*
+
+Dynamic DNS, or DDNS, is a service that automatically updates the Domain Name System (DNS) records associated with your dynamic IP address.
+This is particularly useful for home users and businesses that have internet connections with dynamic IP addresses, which means the IP address assigned to your device can change periodically.
+
+*How DDNS works*:
+
+You sign up for a DDNS service and create an account.
+You install the DDNS client software on your computer or router.
+The DDNS client software periodically checks your IP address and compares it to the one stored in your DDNS account.
+If your IP address has changed, the DDNS client software automatically updates your DNS records with the new IP address.
+This ensures that your domain name always points to the correct IP address, no matter how many times it changes.
+
+==== 1.9 Identify virtual network components.
+Virtual switches
+Virtual desktops
+Virtual servers
+Virtual PBX
+Onsite vs. offsite
+
+Network as a Service (NaaS)
 2.0 Network Installation and Configuration 23%
 
 3.0 Network Media and Topologies 17%
