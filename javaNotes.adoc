@@ -1,0 +1,549 @@
+1) Learning to use methods in Java coding :
+    a. promotes good code style by reducing redundancy and enhancing maintainability.
+    b. No prototype needed for Java method
+        1. that means methods and classes can be defined in any order within a file
+        2. this is different from C++, in C++ prototypes are often required.
+            I). I searched the reason, it said(I am not sure if it's correct) due to Java's single-pass compiler, but
+                C++'s multi-pass compiler
+    c. method definition consists of modifier, method name, parameters, return type, body
+        1. modifier
+            in module3 example, modifier contains public and static, I wondered is static a must option in modifier?
+            for example, there are two methods:
+                1). public static void funcA(int a);
+                2). public void funcA(int a);
+            what's the difference between the two? Static methods belong to the class itself and can be called without creating an instance of the class
+            Non-static methods belongs to an instance of the class, meaning you need to create an object of the class to call this method.
+        2. return type of main function
+            in main function the return type is void
+    d. overloading methods
+        1. Overloading methods enables me to define the methods with the same name as long as their signatures are different.
+    e. ambiguous overloading
+        1. because neither method is more specific than the other, the invocation is ambiguous, resulting in a compile error.
+2). Array
+    a. two ways to define an array in java:
+        1. double[] myList = {1.9, 2.9, 3.4};
+        2. double[] mylist = new double[3];
+            myList[0] = 1.9...
+        3. .length return the size of the array.
+    b. passing an array to a method, the reference of the array is passed to the method.
+
+1). java is an object-oriented programming language that empower users to define their own custom types, called classes, and create object from those types by using new operator.
+
+2). class
+    a. a class is a user defined type that encapsulates both the properties and behaviors of objects.
+    b. main class
+        1. when you run program, the java runtime system invoke the main method in the main class.
+        2. the main class has the same name as the java file.
+    c. constructor in class
+        1. must have the same name as the class.
+        2. don't have a return type, not even void
+        3. play the roles of initializing the objects
+        4. invoked when using new operator to creating object
+    d. static
+        1. static variable are shared by all objects of the class
+            a. constant use final static modifier
+        2. static method can not access instance members of the class
+            a. static method can access static variable in class
+            b. static method can not access nonstatic variable in class
+    e. public modifier
+        1. public modifier can apply to a class
+        2. public modifier can apply to a member of class
+        3. only one class in a file can be public class
+        4. public to local variables can be compiler error
+    f. private modifier
+        1. private modifier can apply to a member of class
+            a. define private data field to make the class easy to maintain
+            b. use getter/setter method to access private data field
+        2. private modifier can apply to a class, only if
+            a. the private class is a nested class within the public class.
+        3. private to local variables can be compiler error.
+    g. immutable class
+        1. if a class is immutable then all the data field in the class is private,
+        2. no setter method in immutable class
+        3. String class is immutable class
+3). object
+    a. new
+        1. create an object in java use new operator.
+        2. newly created object are allocated in the memory
+        3. new operator returning a reference type.
+    b. the object actually is a reference holding the address of the allocated memory not memory itself.
+        1. passing objects to methods is to pass the reference of the objects.
+    c. array of object
+        1. when created object of array with new operator  , each item in array is an reference initialized with null value.
+4). this
+    a. keyword this refers to the object itself.
+    b. if a class has multiple constructors, better use this
+        1. constructor with no or fewer arguments can invoke a constructor with more arguments.
+             a. why?
+                1. to simplifies coding and makes the class easier to read and to maintain
+
+
+1). Class Abstraction/encapsulation Java VS. C++
+    1. Class abstraction is separation of class implementation from the use of the class.
+    2. in C++, class abstraction coding including declaration part(Class_name.h) and implementation part(Class_name.cpp)
+    3. in Java, class abstraction coding in Class_name.java
+    4. why java don't need the declaration part but C++ need the .h file for declaration?
+        1. I found C++ and Java follow different approaches to compilation
+            a. in C++, the compilation steps including  preprocessing, compilation, linking, execution
+            b. but in java, the compilation steps include compilation and execution,java uses a single compilation pass directly from .java to .class, the compiler has immediate access to all type information, avoiding the need for .h like files
+
+2). I learned how to design a class by studying LOAN class.
+
+3). this in JAVA vs. in C++
+    1. in java, "this" is the name of a reference of an host object, so we use "this." to reference hidden data fields.
+    2. in C++, "this" is a pointer referred to the host object, so we use "this->" to select the instance variable.
+    3. in java, we can use this(arglist) to invoke a constructor, but in C++ we can not use this(arglist)
+    4. in C++, use this only when it helps to resovle an ambiguity.
+
+4). static modifier
+    1. a static variable is known as class variable is shared by all objects of the class
+            static variable store values in a common memory location
+    2. a static method cannot access instance members of the class
+    3. a static method can be called without creating an instance of the class
+    4. a staitc method can access the members of the object if it is provided with an object reference as a parameter.
+5). Immutable classes and objects
+    1. if a class is immuatble, all its data fields must be private.
+    2. cannot contain public set methods for any data fields.
+    3. String class is immutable,
+
+= Inheritance
+
+== Introduction
+1. the inheritance relationship
+    a. superclasses vs. subclasses
+    b. geometric object example: GeometryObject.java, circle.java, Rectangle.java
+2. the super Keyword and the constructor chaining
+    a. use the super keyword to invoke the superclass methods and superclass constructor..
+    b. how the constructor chaining happened? sample code Faculty.java
+3. Overriding methods
+    a. overriding vs overloading
+    b. sample code: TestOVerriddenOverloaded.java
+
+
+== textbook of inheritance and polymorphism
+1. super keyword
+2. subclass derived from superclass
+    a. extends keywords
+3. override vs. overload
+4. polymorphism and dynamic binding
+5. casting
+6. explicit downcasting
+7. protected modifier
+8. final modifier
+    a. to prevent class extending and method overriding using the final modifier
+9. methods
+    a. toString() in the Object class
+    b. equals in the Object class
+
+=== introduction textbook
+
+==== 1. oop allows you to define new classes from existing classes, this is called inheritance.
+to avoid redundancy and easy to maintain.
+
+=== 2. inheritance enables you to enable a general class and later extend it to more specialized classes.
+1. a subclass is not a subset of its superclass, a subclass contains more informaiton and mehtods than its superclass
+2. private data fields in a superclass are not accessible outside the class.
+    a. private data fields cannot be used directly in a subclass.
+    b. private data fields can accessed/mutated through public accssors/mutators if defined in the superclsas.
+3. not all is-a relationship should be modeled using inheritance.
+    a. you should not extend a square class from a rectangle class, because the width and height properties are not appropriate for a square.
+4. Inheritance is used to model the is-a relationship.
+    a. a subclass and its superclass must have the is-a rationship.
+5. multiple-inheritance
+    a. java not allowed multiple-inheritance.
+    b. a java class may inherit directly from only one superclass.
+    c. java only support single inheritance.
+    d. if you use the extends keywords to define a subclass, it allows only one parent class.
+    e. multiple inheritance can be achieved through interfaces, which will be introduced in Section 13.4
+
+=== super keyword
+1. the keyword super refers to the superclass and can be used to invoke the superclass's methods and constructors.
+2. what can the super used for:
+    a. to call a superclass constructor
+        1.. a constructor is used to construct an instance of a class
+        2.. a constructor of a superclass are not inherited by a subclass.
+        3.. a constructor of super class can only be invoked from the constructors of the sublcass using the keyword super
+            a.. super()
+            b.. super(parameters)
+            c.. the statement super() and super(parameters) must be the first statement of the subclass's constructor.
+                this is the only way to explicitly invoke a superclass constructor.
+    b. to call a superclass method
+        1.. super can also be used to reference a method other the constructor in the superclass.
+            a.. super.method(parameters);
+
+
+=== Constructor chaining
+1. a constructor may inovke an overloaded constructor or its superclass constructor
+2. if none of above invoked explicitely, the compiler automatically puts super() as the first statement in the constructor.
+3. when constructing an object of a subclass, the subclass constructor
+public class constructor_chaining_example{
+    public static void main(String[] args) {
+        Faculty myFac = new Faculty();
+    }
+}
+class Person {
+    public Person() {
+        System.out.println("Person task");
+    }
+}
+class Employe extends Person {
+    public Employe() {
+        System.out.println("Employee task");
+    }
+    public Employe(String s) {
+        System.out.println(s);
+    }
+}
+class Faculty extends Employe {
+    public Faculty() {
+        System.out.println("Faculty's task");
+    }
+}
+
+==== Caution: if a class is designed to be extended, it is better to provide a no-arg construtor to avoid programming errors.
+
+*If possible, you should provide a no-arg constructor for every class to make the class easy to extend and to avoid errors.*
+public class constructor_chaining_2 {
+    public static void main(String[] args) {
+        XXX b = new XXX();
+    }
+}
+class A {
+    public A(int x) {
+
+    }
+}
+class XXX extends A {
+    public XXX() {
+
+    }
+}
+above compile error
+
+=== calling superclass methods
+
+==== [yes or no]: when invoking a constructor from a subclass, its superclass's no-arg constructor is always invoked.
+
+no. not always automatically invoked with no arguments.
+
+1. Subclasses can explicitly call a specific constructor of the superclass using the super keyword followed by
+the constructor arguments.
+This allows you to control which superclass constructor is used.
+
+2. If you don't explicitly call any superclass constructor in the subclass construcotr, java implicitly calls
+the no-arg constructor of the superclass only if it exists.
+
+
+=== overriding method
+1. override method with same sanme and same return type with that method between superclass and subclass
+
+==== why overriding method?
+it is necessary from the subclass to modify the implementation of a method defined in the superclass.
+this is refered to method overriding.
+
+1. an instance method can be overridden only if it is accessible.
+2. a static method can be inherited, cannot be overridden.
+    a. if a static method defined in the superclass is redefined in a subclass, the method defined in the superclass is hidden.
+    b. the hidden static methods can be invoked using the syntax SuperClassName.staticMethodName.
+
+
+From studying Professor Lo's "Handout6.pdf" lecture,watching the recorded videos and practicing excellent Java examples under Module3/DemoFiles, I:
+1). Inheritance - OOP allows you to define a new class from the existing class, this is called inheritance.
+    a. inheritance is used to model the is-a relationship
+    b. use inheritance to avoid redundancy and easy to maintain/understand
+    c. C++ vs. java
+        1. modifier: in java, using extends, in C++ using a colon(:)
+        2. in java support only single-inhertiance(multiple inheritance can be achieved through interfaces), C++ support multiple-inheritance, which is more clomplex and may caouse diamond problem if not use carefully.
+        3. I'm still learning, these are the two main differences I know so far, but there are others
+        4. which is better? java design is easy and safe and void potential issues like diamond problems.
+
+2). Super -- refers to the superclass and can be used to invoke the superclass's methods and constructors.
+    a. to call a superclass constructor
+        1.. a constructor of super class can only be invoked from the constructors of the sublcass using the keyword super
+            a.. super()
+            b.. super(parameters)
+            c.. the statement super() and super(parameters) must be the first statement of the subclass's constructor.
+                this is the only way to explicitly invoke a superclass constructor.
+    b. to call a superclass method
+        1.. super can also be used to reference a method other the constructor in the superclass.
+            a.. super.method(parameters);
+            b.. like super.toString()
+
+3). Do we have the “super” keyword in C++, if not, how to access the constructor in the parent class in C++?
+    a. no super keyword in C++.
+    b. how to access the constructor in the parent class in C++?
+        1. directly call the constructor in the parent class.
+        2. C++ allows you to directly initialize the superclass constructor with the necessary arguments within the
+            subclass constructor's initailization list.
+    c. which is better?
+        1. java using super keyword to offers a clear and concise way to invoke superclass's method.
+
+=== final words
+   @Override
+    void final deposit(double amount) {
+        System.out.println("No deposit allowed for a CDAccount");
+    }
+ error: java: <identifier> expected
+In Java, the keyword final comes before the return type, not after void. Additionally, the method name should come before the keyword final.
+
+neither a final class nor a final method can be extended.
+A final data field is a constant
+
+final method
+a final method canot be overridden by its subclasses.
+
+final class
+if you want to prevent classes from being extended.
+use the final modifier to indicate that a class is final and cannot be a parent class.
+
+== 1. Discussion questions to answer
+1. how to randomly create Account or CDAccount object?
+2. How to generate the initial balace and CDAccount duration randomly?
+
+== 2. To discover polymorphism
+    1. dynamic binding
+        a.. A method can be implemented in several classes along the inheritance chain.
+            A JVM decides which method is invoked at runtime.
+                public class DynamicBindingDemo {
+    public static void main(String[] args ) {
+        // A method can be implemented in several classes along the inheritance chain.
+        // The JVM decides which method is invoked at runtime.
+        m(new GraduateStudent());
+        m(new Students());
+        m(new Persons());
+        m(new Object());
+    }
+    public static void m(Object x) {
+        System.out.println(x.toString());
+    }
+}
+
+class GraduateStudent extends Students {
+
+}
+
+class Students extends Persons {
+    @Override
+    public String toString() {
+        return "Students";
+    }
+}
+
+class Persons {
+    @Override
+    public String toString() {
+        return "Person";
+    }
+}
+        b.. matching a method signature and binding a method implementation is different
+
+        c.. matching a method signature
+            b1... The declared type of the reference variable decides which method to match at compile time.
+                  The compiler finds a matching method according to the parameter type, number of parameters,
+                    and order of the parameters at compile time.
+        d.. binding a method implementation
+            d1 ... The JVM dynamically binds the implementation of the method at runtime, decided by the actual type of the variable.
+
+
+    2. upcasting
+
+    3. downcasting
+
+=== what is polymorphisim ?
+polymorphism means that a variable of a supertype can refer to a subtype object
+public class PolymorphismDemo {
+    public static void main(String[] args)  {
+        // variable of a supertype can refer to a subtype object
+         displayObject(new CircleFromSimpleGeometricObject(1, "red", false));
+        // variable of a supertype can refer to a subtype object
+         displayObject(new RectangleFromSimpleGeometricObject(1, 1, "black", true));
+    }
+    public static void displayObject(SimpleGeometricObject object) {
+        System.out.println("Created on " + object.getDateCreated() + ".Color is " + object.getColor());
+    }
+}
+
+== 3. Compare objects
+
+== 4. To store/retrieve/manipulate objects in an ArrayList
+convert one array into an ArrayList
+
+== 5. how to use the protected visibility modifier
+
+== 6. the ArrayList Class
+
+    1. A ArrayList Object can be used to store a list of objects
+
+    2. ArrayList is a very useful class for stroing boject
+
+    3. once the array is created, its size is fixed.
+
+    4. Java provide ArrayList class, which can be used to store an unlimited number of ojbects.
+
+import java.util.ArrayList;
+
+public class TestArrayList {
+    public static void main(String[] args) {
+        ArrayList<String> cityList = new ArrayList<>();
+
+        cityList.add("London");
+        cityList.add("Dever");
+        cityList.add("Paris");
+
+        System.out.println(cityList.size());
+        System.out.println(cityList.contains("Miami"));
+        System.out.println(cityList.indexOf("Dever"));
+        System.out.println(cityList.isEmpty());
+        System.out.println(cityList.get(1));
+
+        cityList.add(2, "Xian");
+        cityList.remove("Miami");
+        cityList.remove(1);
+        System.out.println(cityList.toString());
+
+    }
+}
+
+== 7. Useful Methods for Lists
+Java provides the methods for creating a list from an array,
+for sorting a list,
+and finding maximum and minimum element in a list, and for shuffling a list.
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+
+
+public class creatingListFromArray {
+    public static void main(String[] args) {
+        String[] array = {"red", "green", "blue"};
+        ArrayList<String> list = new ArrayList<>(Arrays.asList(array));
+
+        Integer[] intArray = {3, 19, 5, 9};
+        ArrayList<Integer> list2 = new ArrayList<>(Arrays.asList(intArray));
+        java.util.Collections.sort(list2);
+        System.out.println(list2);
+        System.out.println(java.util.Collections.max(list2));
+    }
+}
+
+== The random class
+1. use the Math.random() to obtain a random double value between 0.0 and 1.0.
+2. use the java.util.Random class, which can generate a random int, long, double, float, and boolean value.
+3. A Random object can be used to generate random values.
+4. when you create a Random object, you have to specify a seed or use the default seed.
+
+
+=== discussion
+1.polymorphism - a variable of a supertype can refer to a subtype object
+2. dynamic binding - ensures that the correct implementation of an overridden method is called based on the actual type of the object.
+3. upcasting - involves converting a subclass reference into a superclass reference.
+4. downcasting - nvolves converting a superclass reference to a subclass reference,it's essential to weigh the risks and benefits carefully before using downcasting
+5. ArrayList Class - is a very useful class for storing a lists of objects
+6. how to randomly create Account or CDAccount object?
+    Using following two ArrayList:
+        ArrayList<Random> randoms = new ArrayList<>();
+        ArrayList<Account> myAccount = new ArrayList<>();
+7. 2. How to generate the initial balace and CDAccount duration randomly?
+         using ArrayList randoms : randoms.get(i).nextInt(7000), randoms.get(i).nextInt(10)
+
+
+     using ArrayList randoms : randoms.get(i).nextInt(7000), randoms.get(i).nextInt(10)
+
+
+3 ways to compare two objects:
+
+1. "==" operator :
+
+checks if two object references refer to the same object in memory.
+
+2. equals method:
+
+From Assignment 7 I learned how equals method works on ArrayList, The contains method and Indexof method internally use equals method to determine of an object is present in the list.
+
+so users can design their own equals method to compare object for value equality.
+
+3. compareTo method
+
+defines a nature ordering between objects.
+
+users can design their own compareTo method and sort method in Collections class will use them internally.
+
+example in String object compare:
+
+import java.util.Scanner;
+
+public class compareObjects {
+    public static void main(String[] args) {
+        java.util.Scanner input = new Scanner(System.in);
+        String s3 = input.nextLine();
+        String s4 = input.nextLine();
+
+
+        if (s3.equals(s4)) {
+            System.out.println("s3 equals s4");
+        }
+        if (s3 != s4) {
+            System.out.println("s3 != s4");
+        }
+        if (s3.compareTo(s4) == 0){
+            System.out.println("s3 same as s4 using compareTo method");
+        }
+
+    }
+}if you input
+hello world
+hello world
+
+it will output:
+s3 equals s4
+s3 != s4
+s3 same as s4 using compareTo method
+
+Interface VS. Abstract class
+ Same:
+    1. both interface and abstract class can not be used to create objects, means both cannot be instantiated using the new operator.
+    2. both contain abstract method, which don't provide any implementation details.
+    3. both can extend an interface.
+difference:
+    1. constructor:
+        Interface doesn't has an constructor
+        abstract class has constructor with protected modifier
+    2. variable:
+        Interface can only has variables with "public static final" modifier
+        abstract class can has all types of variables like regular class.
+    3. method:
+        Interface can support method with "public abstract"(default) modifier and "default/static/private" method (J8 or later)
+        abstract class can has all types of methods like regular class.
+    4. Inheritance keyword
+        Interface use "implements"
+        abstract class use "extends"
+    5. definition keyword modifier:
+        Interface "public" by default
+        abstract class use "public/protected/package-private abstract"
+    6. Inheritance
+        A variable of Interface type can reference any instance of class that implements the interface
+        A variable of abstract class can reference any instance of class that extends the abstract class
+    7. Multiple Inheritance
+        Interface support multiple inheritance
+        Abstract class like regular class only support single inheritance.
+    8. Examples
+        Interface: java.util.List
+            import java.util.List;
+
+public class TestList {
+    public static  void main(String[] args) {
+        // Error: java.util.List is interface; cannot be instantiated
+        List<String> list = new List();
+
+    }
+}
+        Abstract class: Number class
+public class TestList {
+    public static  void main(String[] args) {
+        // List<String> list = new List();
+
+        Number n = new Number();
+
+    }
+}
+
