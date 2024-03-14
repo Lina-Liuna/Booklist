@@ -1,4 +1,4 @@
-1) Learning to use methods in Java coding :
+== methods in Java coding :
     a. promotes good code style by reducing redundancy and enhancing maintainability.
     b. No prototype needed for Java method
         1. that means methods and classes can be defined in any order within a file
@@ -19,7 +19,8 @@
         1. Overloading methods enables me to define the methods with the same name as long as their signatures are different.
     e. ambiguous overloading
         1. because neither method is more specific than the other, the invocation is ambiguous, resulting in a compile error.
-2). Array
+
+== Array
     a. two ways to define an array in java:
         1. double[] myList = {1.9, 2.9, 3.4};
         2. double[] mylist = new double[3];
@@ -27,9 +28,9 @@
         3. .length return the size of the array.
     b. passing an array to a method, the reference of the array is passed to the method.
 
-1). java is an object-oriented programming language that empower users to define their own custom types, called classes, and create object from those types by using new operator.
+=== java is an object-oriented programming language that empower users to define their own custom types, called classes, and create object from those types by using new operator.
 
-2). class
+== class
     a. a class is a user defined type that encapsulates both the properties and behaviors of objects.
     b. main class
         1. when you run program, the java runtime system invoke the main method in the main class.
@@ -61,7 +62,8 @@
         1. if a class is immutable then all the data field in the class is private,
         2. no setter method in immutable class
         3. String class is immutable class
-3). object
+
+===  object
     a. new
         1. create an object in java use new operator.
         2. newly created object are allocated in the memory
@@ -70,15 +72,15 @@
         1. passing objects to methods is to pass the reference of the objects.
     c. array of object
         1. when created object of array with new operator  , each item in array is an reference initialized with null value.
-4). this
+
+===  this
     a. keyword this refers to the object itself.
     b. if a class has multiple constructors, better use this
         1. constructor with no or fewer arguments can invoke a constructor with more arguments.
              a. why?
                 1. to simplifies coding and makes the class easier to read and to maintain
 
-
-1). Class Abstraction/encapsulation Java VS. C++
+=== Class Abstraction/encapsulation Java VS. C++
     1. Class abstraction is separation of class implementation from the use of the class.
     2. in C++, class abstraction coding including declaration part(Class_name.h) and implementation part(Class_name.cpp)
     3. in Java, class abstraction coding in Class_name.java
@@ -87,21 +89,20 @@
             a. in C++, the compilation steps including  preprocessing, compilation, linking, execution
             b. but in java, the compilation steps include compilation and execution,java uses a single compilation pass directly from .java to .class, the compiler has immediate access to all type information, avoiding the need for .h like files
 
-2). I learned how to design a class by studying LOAN class.
-
-3). this in JAVA vs. in C++
+===  this in JAVA vs. in C++
     1. in java, "this" is the name of a reference of an host object, so we use "this." to reference hidden data fields.
     2. in C++, "this" is a pointer referred to the host object, so we use "this->" to select the instance variable.
     3. in java, we can use this(arglist) to invoke a constructor, but in C++ we can not use this(arglist)
     4. in C++, use this only when it helps to resovle an ambiguity.
 
-4). static modifier
+=== static modifier
     1. a static variable is known as class variable is shared by all objects of the class
             static variable store values in a common memory location
     2. a static method cannot access instance members of the class
     3. a static method can be called without creating an instance of the class
     4. a staitc method can access the members of the object if it is provided with an object reference as a parameter.
-5). Immutable classes and objects
+
+=== Immutable classes and objects
     1. if a class is immuatble, all its data fields must be private.
     2. cannot contain public set methods for any data fields.
     3. String class is immutable,
